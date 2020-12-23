@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+
+
+
+@font-face {
+    font-family: lamoon;
+    src: url( ../../vendor/fonts/FC_Lamoon_Regular.ttf);
+}
+
+@font-face {
+    font-family: lamoon-b;
+    src: url( ../../vendor/fonts/FC_Lamoon_Bold.ttf);
+}
+
+/*==========  Mobile   ==========*/
+	
+	.btn-yellow{
+		color: #fff;
+		background-color: #FFC000;
+		border-color: #FFC000;
+	}
+	
+	a:hover {
+		color: #EC8400;
+		text-decoration: underline;
+	}
+
+	a {
+		color: #FFC000;
+		text-decoration: none;
+		background-color: transparent;
+		-webkit-text-decoration-skip: objects;
+	}
+	.icon{
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		background-color: #FFF;
+	}
+	.icon:hover{
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+	}
+
+	.icon.icon-facebook{
+		background-image: url(../images/icon/social/facebook.png);
+		background-size: cover;
+	}
+	.icon.icon-youtube{
+		background-image: url(../images/icon/social/youtube.png);
+		background-size: cover;
+	}
+
+
+	.search-container{
+		 float: left;
+	}
+	.search-container input[type=text]{
+		line-height: 32px;
+		height: 32px;
+		border: none;
+		border-radius: 5px 0px 0px 5px;
+		outline: none;
+		margin-right: 0px;
+		padding: 6px;
+		box-sizing: border-box;
+		display: block;
+		float: left;
+	}
+	.search-container button.btn-search{
+		outline: none;
+		border: none;
+		border-radius: 0px 5px 5px 0px;
+		height: 32px;
+		margin-left: 0px;
+		box-sizing: border-box;
+		display: block;
+		float: left;
+
+	}
+/*zone header */
+	header .container{
+		position: relative;
+		
+	}
+	
+	nav .row-buttom{
+		display: block;
+		clear: both;
+	}
+
+	.navbar{
+		border-radius: 0px;
+	}
+
+	.logo{
+		width: 40px;
+		height: 40px;
+		background-size: cover;
+		background-position: center center;
+		background-image: url(../images/logo/small.png);
+		background-repeat: no-repeat;
+	}
+
+	/*zone main */
+	main{
+		min-height: 700px;
+		
+	}
+
+	/*zone footer */
+	footer {
+		background-color: #343a40;
+		min-height: 60px;
+		width: 100%;
+	}
+ 	
+	footer .contace{
+		padding-top:20px;
+		color: azure;
+	}
+
+	footer .department{
+		font-family: lamoon-b;
+		margin: 0px;
+	}
+
+	footer .school{
+		font-size: 1em;
+		font-family: lamoon;
+	}
+		
+	section.Major,
+	section.Post,
+	section.Activity,
+	section.Spr,
+	section.Hall_of_Fame{
+		padding-top:5rem;
+		padding-bottom: 5rem;
+		
+	}
+
+
+section.Major{ }
+section.Post{
+	 
+/*
+	background-image: url(../images/background/bg1.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+*/
+}
+section.Activity{
+	background-image: url(../images/background/BG01.png);
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+}
+section.Spr{}
+section.Spr h2{}
+section.Hall_of_Fame{}
+
+
+	section.Calendar .list-group-item{
+		padding: .85rem 1.25rem;
+	}
+
+	section.Calendar .date{
+		font-weight: bold;
+		color:royalblue;
+		display: inline-block;
+		width: 80px;
+	}
+	
+
+	
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/*zone header */
+
+	/*zone main */
+	main{
+		min-height: 700px;
+	}
+	/*zone footer */
+	h2{
+		font-size: 24px;
+	}
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/*zone header */
+	
+	.logo{
+		 
+		width: 190px;
+		height: 60px;
+		background-size: 80%;
+		background-position: center center;
+		background-image: url(../images/logo/large.png);
+		background-repeat: no-repeat;
+		margin: 5px 0px;
+	}
+	
+	
+
+	/*zone main */
+	main{
+		min-height: 700px;
+	}
+
+	.carousel-item {
+		margin-top: 76px;
+	}
+
+
+	.icon-social{
+		display: block;
+	}
+	/*zone footer */
+	 
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+/*zone header */
+	
+
+	.logo{
+		width: 190px;
+		height: 60px;
+		background-size: 80%;
+		background-position: center center;
+		background-image: url(../images/logo/large.png);
+		background-repeat: no-repeat;
+		margin: 5px 0px;
+	}
+
+	/*zone main */
+	main{
+		min-height: 700px;
+	}
+
+	.carousel-item {
+		margin-top: 76px;
+	}
+	
+	.icon-social{
+		display: block;
+	}
+	/*zone footer */
+	footer {
+		min-height: 60px;
+	}
+
+}
+	
+	
+
